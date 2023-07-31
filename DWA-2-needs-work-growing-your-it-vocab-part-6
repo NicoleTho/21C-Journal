@@ -1,0 +1,108 @@
+# NEEEDS WORK 🚨
+
+
+# The Basics of Programming Paradigms 🌍🌎🌏
+
+Programming paradigms are fundamental styles of computer programming that define how programs are structured and organized to solve problems. They provide developers with specific guidelines and methodologies for designing software systems. In this comprehensive guide, we'll explore the three major programming paradigms: Procedural, Object-Oriented, and Functional.
+
+# General Terms ⚒️
+**100. Programming Paradigm:** A fundamental style of computer programming.
+
+Example: Object-oriented programming and functional programming are two different programming paradigms used to approach problem-solving in distinct ways.
+
+**Imperative Programming:** This paradigm focuses on describing step-by-step instructions for the computer to follow to solve a problem. It involves using statements that change the program's state, altering variables and updating data directly.
+
+**Object-Oriented Programming (OOP):** OOP organizes code into objects, representing real-world entities, and defines their properties (attributes) and behaviors (methods). It emphasizes the use of classes and objects to structure and model the software.
+
+**Functional Programming (FP):** FP treats computation as the evaluation of mathematical functions. It relies on the use of pure functions that take input and produce output without modifying external state. This paradigm emphasizes immutability and avoids side effects.
+
+**Declarative Programming:** In contrast to imperative programming, declarative programming expresses the logic of computation without describing its control flow. It focuses on what should be achieved rather than how to achieve it. SQL is an example of a declarative language.
+
+**Procedural Programming:** This paradigm is 
+based on the concept of the procedure call. It involves breaking down a program into smaller procedures (functions) that perform specific tasks and call them sequentially to achieve the desired outcome.
+
+**103. High-Level Language:** A programming language with strong abstraction from the details of the computer.
+
+Example: Python is a high-level language that allows developers to focus on problem-solving without worrying about the hardware-level details.
+
+**104. Low-level Language:** A programming language that provides little or no abstraction from a computer's instruction set architecture.
+
+Example: Assembly language is a low-level language that closely represents the machine code instructions executed by the computer's CPU.
+
+# Procedural 🪜
+**105. Procedural Programming:** A programming paradigm based on the concept of the procedure call.
+
+Example: In procedural programming, you break down a program into smaller procedures (functions) that perform specific tasks and call them sequentially to achieve the desired outcome.
+
+**106. Procedure:** A set of programming instructions to perform a specific task.
+
+Example: In a procedural programming approach, you might create a procedure called `calculateSalary()` that takes employee data and computes their salary based on predefined rules.
+
+**107. Sequence Control:** The ability to execute a series of instructions in a controlled manner.
+
+Example: By using sequence control, you can ensure that the steps in a procedural program are executed in the desired order to achieve the intended result.
+
+**108. Iteration:** A fundamental flow of control concept where software instructions are repeated.
+
+Example: In procedural programming, you can use loops (e.g., `for` or `while` loops) to iterate over a set of data and perform the same operation multiple times.
+
+**109. Recursion:** The process of defining something in terms of itself.
+
+Example: Recursion is commonly used in procedural programming, where a function calls itself to solve a problem by breaking it down into smaller sub-problems.
+
+# Object-Oriented 📅
+**110. Object-Oriented Programming (OOP):** A paradigm based on "objects," which may contain data and code.
+
+Example: OOP organizes code into objects, representing real-world entities, and defines their properties (attributes) and behaviors (methods).
+
+**111. Object:** An instance of a class.
+
+Example: If `Car` is a class, then `myCar` could be an object representing a specific car with its unique characteristics.
+
+**112. Class:** A blueprint or template for creating objects.
+
+Example: A `Person` class might have attributes like `name` and `age`, as well as methods like `speak()` and `walk()`.
+
+**113. Inheritance:** A mechanism of basing a class upon another class.
+
+Example: Inheritance allows a `Student` class to inherit attributes and methods from a more general `Person` class, avoiding code duplication.
+
+**114. Polymorphism:** A feature that allows one interface to be used for a general class of actions.
+
+Example: Polymorphism enables a single function, like `calculateArea()`, to work with different shapes (e.g., circles, squares) by using the same interface.
+
+**115. Encapsulation:** The bundling of data and methods that operate on that data within one unit.
+
+Example: Encapsulation allows you to hide the internal implementation of a class and expose only the necessary methods and attributes to the outside world.
+
+**116. Abstraction:** A mechanism to represent the essential features without including background details.
+
+Example: Abstraction allows you to create a `Vehicle` class with common attributes like `color` and `speed`, hiding the specific details of each vehicle type.
+
+**117. Interface:** A point where two systems or subjects meet and interact.
+
+Example: In OOP, an interface specifies a set of methods that a class must implement, ensuring consistency and enabling polymorphism.
+
+# Functional 🔣
+**118. Functional Programming (FP):** A paradigm that treats computation as the evaluation of mathematical functions.
+
+Example: In functional programming, you focus on writing pure functions that take input and produce output without modifying external state.
+
+**119. Pure Function:** A function that does not have any observable side effects.
+
+Example: A pure function takes arguments and returns a value without modifying any external variables or performing I/O operations.
+
+**120. Higher-Order Function:** A function that takes one or more functions as arguments, returns a function, or both.
+
+Example: A higher-order function might take another function as an argument, such as a sorting function that receives a custom comparison function.
+
+**121. Lambda Function:** An anonymous function (a function defined without a name).
+
+Example: In Python, you can define a lambda function to calculate the square of a number: `square = lambda x: x**2`.
+
+**122. Currying:** The technique of converting a function with multiple arguments into a sequence of functions, each with a single argument.
+
+Example: In JavaScript, you can curry a function that adds two numbers by creating a series of functions: add(2)(3), which returns 5.
+
+
+
